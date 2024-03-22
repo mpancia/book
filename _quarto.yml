@@ -1,0 +1,26 @@
+project:
+    type: tufte
+book:
+  page-footer:
+    right: |
+      This book was built with <a href="https://quarto.org/">Quarto</a>.
+  open-graph: true
+  site-url: https://mpancia.github.io/book/
+  repo-url: https://github.com/mpancia/book/
+  repo-branch: main
+  repo-actions: [edit, issue]
+  title: |
+    Economics for Midwits
+  author: Matthew Pancia
+  date-format: MMMM, YYYY
+  license: "CC BY"
+  chapters:
+    - index.qmd
+    - 02-Main/epistemics.qmd
+    - 02-Main/supply_and_demand.qmd
+    - part: about.qmd
+      chapters:
+        - 03-Back/references.qmd
+        - 03-Back/ack.qmd
+        - 03-Back/colophon.qmd
+bibliography: references.bib

@@ -1,0 +1,23 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Economics for Midwits",
+    "section": "",
+    "text": "A portrait Edward R. Tufte, godfather of charts. Art by Fred Guth and MidJourney.\n\n\nWelcome",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Preface</span>"
+    ]
+  },
+  {
+    "objectID": "03-Back/colophon.html",
+    "href": "03-Back/colophon.html",
+    "title": "Colophon",
+    "section": "",
+    "text": "Composed in ET Book, a free and open-sopurce typeface designed by Dmitry Krasny, Bonnie Scranton, and Edward Tufte; and Gyre Heros, a fontbased on the URW Nimbus Sans L kindly released by URW++ Design and Development Inc. under GFL. Based on Tufte-Latex and Quarto.",
+    "crumbs": [
+      "About",
+      "Colophon"
+    ]
+  }
+]
