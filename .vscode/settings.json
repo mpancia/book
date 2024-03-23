@@ -1,0 +1,16 @@
+{
+    "libraryFilePath": "book.bib",
+    "emeraldwalk.runonsave": {
+        "commands": [
+            {
+                "match": "\\.Rmd$",
+                "cmd": "Rscript -e 'bookdown::render_book(\"index.Rmd\")'"
+            },
+            {
+                "match": "\\.html$",
+                "cmd": "Rscript -e 'bookdown::render_book(\"index.Rmd\")'"
+            },
+        ]
+    },
+    "r.lsp.promptToInstall": false
+}

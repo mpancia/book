@@ -3,5 +3,6 @@
 ```{r, echo=FALSE, results='asis'}
 htmltools::includeHTML("../partials/figures/supply_demand.html")
 ```
-
-Okay?
+::: {.callout-warning}
+This is a warning.
+:::
