@@ -1,5 +1,3 @@
-![A portrait Edward R. Tufte, godfather of charts. Art by Fred Guth and MidJourney.](/Images/et_midjourney_transparent.png){.column-margin}
-
 :::{.content-hidden when-format="html"}:::
 # Preface
 :::

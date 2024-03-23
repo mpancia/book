@@ -1,0 +1,10 @@
+<div id="box" class="figure jxgbox" style="height:500px; width: 500px">
+    <script type="text/javascript">
+        var board = JXG.JSXGraph.initBoard('box', { boundingbox: [0, 5, 3, -1], axis: false, grid: false, title: 'Supply and Demand', showCopyright: false, showNavigation: false });
+        var xaxis = board.create('axis', [[0, 0], [10, 0]], { name: 'Quantity', withLabel: true, anchor: 'left', ticks: { visible: false }, label: { position: 'rt', offset: [-100, -30] } });
+        var yaxis = board.create('axis', [[0, 0], [0, 10]], { name: 'Price', withLabel: true, anchor: 'left', ticks: { visible: false }, label: { position: 'rt', offset: [0, -30] } });
+        var demandCurve = board.create('functiongraph', [function (x) { return -x * x + 4; }, 0, 2], { strokeColor: 'orange', withLabel: true, name: 'Demand' });
+        var supplyCurve = board.create('functiongraph', [function (x) { return x * x; }, 0, 2], { strokeColor: 'purple', withLabel: true, name: 'Supply' });
+        var clip_path = board.create('intersection', [demandCurve, supplyCurve], { name: 'Equilibrium', withLabel: true, strokeColor: 'red' });
+    </script>
+</div>

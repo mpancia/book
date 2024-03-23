@@ -1,5 +1,13 @@
 project:
     type: tufte
+    output-dir: docs
+format:
+  html:
+    code-link: true
+
+    author-meta: "Matthew Pancia"
+    include-in-header: "partials/header.html"
+    callout-appearance: simple
 book:
   page-footer:
     right: |
@@ -16,11 +24,11 @@ book:
   license: "CC BY"
   chapters:
     - index.qmd
-    - 02-Main/epistemics.qmd
-    - 02-Main/supply_and_demand.qmd
+    - book/epistemics.qmd
+    - book/supply_and_demand.qmd
     - part: about.qmd
       chapters:
-        - 03-Back/references.qmd
-        - 03-Back/ack.qmd
-        - 03-Back/colophon.qmd
+        - book/references.qmd
+        - book/ack.qmd
+        - book/colophon.qmd
 bibliography: references.bib

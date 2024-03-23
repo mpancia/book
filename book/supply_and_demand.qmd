@@ -1,0 +1,7 @@
+# Supply and Demand {.unnumbered .unlisted}
+
+```{r, echo=FALSE, results='asis'}
+htmltools::includeHTML("../partials/figures/supply_demand.html")
+```
+
+Okay?
