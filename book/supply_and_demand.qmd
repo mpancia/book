@@ -1,8 +1,12 @@
 # Supply and Demand {.unnumbered .unlisted}
 
+{{< include ../_header.qmd >}}
+
 ```{r, echo=FALSE, results='asis'}
-htmltools::includeHTML("../partials/figures/supply_demand.html")
+htmltools::includeHTML("./partials/figures/supply_demand.html")
 ```
+
 ::: {.callout-warning}
 This is a warning.
 :::
+adsdasd
