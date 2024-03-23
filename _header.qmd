@@ -1,0 +1,7 @@
+```{r setup}
+#| echo: false
+#| cache: false
+
+knitr::opts_knit$set(root.dir = rprojroot::find_rstudio_root_file())
+
+```

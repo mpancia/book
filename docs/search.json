@@ -14,7 +14,7 @@
     "href": "book/supply_and_demand.html",
     "title": "Supply and Demand",
     "section": "",
-    "text": "This is a warning.",
+    "text": "This is a warning.\n\n\n\nadsdasd",
     "crumbs": [
       "Supply and Demand"
     ]
@@ -26,7 +26,7 @@
     "section": "",
     "text": "Composed in ET Book, a free and open-sopurce typeface designed by Dmitry Krasny, Bonnie Scranton, and Edward Tufte; and Gyre Heros, a fontbased on the URW Nimbus Sans L kindly released by URW++ Design and Development Inc. under GFL. Based on Tufte-Latex and Quarto.",
     "crumbs": [
-      "About",
+      "Appendices",
       "Colophon"
     ]
   }

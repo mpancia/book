@@ -4,10 +4,10 @@ project:
 format:
   html:
     code-link: true
-
     author-meta: "Matthew Pancia"
     include-in-header: "partials/header.html"
     callout-appearance: simple
+number-depth: 1
 book:
   page-footer:
     right: |
@@ -26,9 +26,9 @@ book:
     - index.qmd
     - book/epistemics.qmd
     - book/supply_and_demand.qmd
-    - part: about.qmd
-      chapters:
-        - book/references.qmd
-        - book/ack.qmd
-        - book/colophon.qmd
+  appendices:
+    - book/references.qmd
+    - book/ack.qmd
+    - book/colophon.qmd
 bibliography: references.bib
+bibliographystyle: apa
